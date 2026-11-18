@@ -45,7 +45,7 @@
 
 ### License
 
-Dual-licensed under **GPL-3.0-or-later** and **MIT**. See [LICENSE](LICENSE) for details.
+Licensed under **GPL-3.0-or-later**. See [LICENSE](LICENSE) for details.
 
 ---
 
@@ -89,4 +89,4 @@ Dual-licensed under **GPL-3.0-or-later** and **MIT**. See [LICENSE](LICENSE) for
 
 ### ライセンス
 
-本MODは **GPL-3.0-or-later** および **MIT** のデュアルライセンスで提供されます。詳細は [LICENSE](LICENSE) を参照してください。
+本MODは **GPL-3.0-or-later** のもとで公開されています。詳細は [LICENSE](LICENSE) を参照してください。
