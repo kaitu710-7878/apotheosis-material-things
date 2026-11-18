@@ -1,5 +1,15 @@
 # Changelog / 変更履歴
 
+## [1.0.1-beta] - 2026-11-18
+
+### English
+- Promoted release stage from Alpha to Beta after verifying loot table viewer compatibility with Advanced Loot Info.
+- Updated documentation (`README.md`) with compatibility testing notes.
+
+### 日本語
+- Advanced Loot Info を用いたルートテーブル表示対応テストの結果を受け、リリース段階を Alpha から Beta へ引き上げ。
+- 動作確認テストについての記載を `README.md` に追記。
+
 ## [1.0.1-alpha] - 2026-11-18
 
 ### English
