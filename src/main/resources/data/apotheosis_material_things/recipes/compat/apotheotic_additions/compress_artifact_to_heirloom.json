@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheotic_additions"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          { "item": "apotheotic_additions:artifact_material" },
+          { "item": "apotheotic_additions:artifact_material" },
+          { "item": "apotheotic_additions:artifact_material" },
+          { "item": "apotheotic_additions:artifact_material" }
+        ],
+        "result": {
+          "item": "apotheotic_additions:heirloom_material",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

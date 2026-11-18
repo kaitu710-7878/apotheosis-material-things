@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "apotheosis:mythic_material" },
+    { "item": "apotheosis:mythic_material" },
+    { "item": "apotheosis:mythic_material" },
+    { "item": "apotheosis:mythic_material" }
+  ],
+  "result": {
+    "item": "apotheosis:ancient_material",
+    "count": 1
+  }
+}

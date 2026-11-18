@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "apotheosis:common_material" },
+    { "item": "apotheosis:common_material" },
+    { "item": "apotheosis:common_material" },
+    { "item": "apotheosis:common_material" }
+  ],
+  "result": {
+    "item": "apotheosis:uncommon_material",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+package dev.apotheosis_material_things.loot;
+
+import com.mojang.serialization.Codec;
+import dev.apotheosis_material_things.ApotheosisMaterialThings;
+import net.minecraftforge.common.loot.IGlobalLootModifier;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+/**
+ * Registers global loot modifier serializers for Apotheosis Material Things.
+ */
+public class ModLootModifiers {
+    public static final DeferredRegister<Codec<? extends IGlobalLootModifier>> LOOT_MODIFIER_SERIALIZERS =
+            DeferredRegister.create(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, ApotheosisMaterialThings.MOD_ID);
+
+    public static final RegistryObject<Codec<? extends IGlobalLootModifier>> ADD_COMMON_MATERIAL =
+            LOOT_MODIFIER_SERIALIZERS.register("add_common_material", CommonMaterialLootModifier.CODEC);
+
+    public static void register(IEventBus eventBus) {
+        LOOT_MODIFIER_SERIALIZERS.register(eventBus);
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheotic_additions"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          { "item": "apotheosis:ancient_material" },
+          { "item": "apotheosis:ancient_material" },
+          { "item": "apotheosis:ancient_material" },
+          { "item": "apotheosis:ancient_material" }
+        ],
+        "result": {
+          "item": "apotheotic_additions:artifact_material",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

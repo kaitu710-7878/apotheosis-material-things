@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "apotheotic_additions"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ancientreforging"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "esotericreforging"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "pattern": [
+          " E ",
+          "EAE",
+          "SSS"
+        ],
+        "key": {
+          "E": { "item": "apotheotic_additions:esoteric_material" },
+          "A": { "item": "ancientreforging:ancient_reforging_table" },
+          "S": { "item": "minecraft:echo_shard" }
+        },
+        "result": {
+          "item": "esotericreforging:esoteric_reforging_table",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "config.apotheosis_material_things.enable_common_material_drop": "Enable Common Material Drops",
+  "config.apotheosis_material_things.drop_chance": "Base Drop Chance",
+  "config.apotheosis_material_things.looting_bonus_per_level": "Looting Bonus Per Level",
+  "config.apotheosis_material_things.require_player_kill": "Require Player Kill"
+}

@@ -1,0 +1,6 @@
+{
+  "config.apotheosis_material_things.enable_common_material_drop": "コモンマテリアルのドロップを有効化",
+  "config.apotheosis_material_things.drop_chance": "基本ドロップ確率",
+  "config.apotheosis_material_things.looting_bonus_per_level": "ドロップ増加レベルごとの加算確率",
+  "config.apotheosis_material_things.require_player_kill": "プレイヤーによる討伐を必須にする"
+}
