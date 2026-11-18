@@ -1,5 +1,13 @@
 # Changelog / 変更履歴
 
+## [1.0.2-beta] - 2026-11-19
+
+### English
+- Added `IExtensionPoint.DisplayTest` (`IGNORESERVERONLY`) and `displayTest="IGNORE_ALL_VERSION"` in `mods.toml` so the mod works when installed on the server side only in multiplayer without requiring clients to install it.
+
+### 日本語
+- マルチプレイでサーバー側のみに導入した場合でもクライアント未導入のまま接続・動作できるよう、`IExtensionPoint.DisplayTest` (`IGNORESERVERONLY`) および `mods.toml` の `displayTest="IGNORE_ALL_VERSION"` を設定しました。
+
 ## [1.0.1-beta] - 2026-11-18
 
 ### English

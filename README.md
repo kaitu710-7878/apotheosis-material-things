@@ -41,6 +41,7 @@
 2. Install **Apotheosis** (and its dependencies: Placebo, Apothic Attributes).
 3. *(Optional)* Install **Apotheotic Additions**, **Ancient Reforging**, and/or **Esoteric Reforging** for extended recipes.
 4. Place `apotheosis_material_things-<version>.jar` into your `mods/` folder.
+   - **Multiplayer:** Server-side only compatible. Installing this mod only on the server is sufficient (clients do not need to install it).
 
 ### License
 
@@ -84,6 +85,7 @@ Dual-licensed under **GPL-3.0-or-later** and **MIT**. See [LICENSE](LICENSE) for
 2. **Apotheosis**（および前提MODの Placebo、Apothic Attributes）を導入します。
 3. *(任意)* 拡張レシピを利用する場合は **Apotheotic Additions**、**Ancient Reforging**、**Esoteric Reforging** を導入します。
 4. `apotheosis_material_things-<version>.jar` を `mods/` フォルダに配置します。
+   - **マルチプレイについて:** サーバー側のみの導入で動作します（クライアント側への導入は不要です）。
 
 ### ライセンス
 
