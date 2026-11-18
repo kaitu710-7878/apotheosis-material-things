@@ -14,7 +14,7 @@
 ### Features
 
 1. **Hostile Mob Common Material Drops**
-   - Adds a **4% base chance** (configurable) for all hostile mobs (`Enemy` / `MobCategory.MONSTER`) to drop `apotheosis:common_material` via Global Loot Modifiers.
+   - Adds a **4% base chance** (configurable) for all hostile mobs (`MobCategory.MONSTER`) to drop `apotheosis:common_material` directly in their loot tables (compatible with loot table viewer mods such as JER and EMI Loot).
    - Benefits from **Looting** enchantment (+1% per level by default, configurable).
 
 2. **4-to-1 Rarity Material Compression Recipes**
@@ -57,7 +57,7 @@ Dual-licensed under **GPL-3.0-or-later** and **MIT**. See [LICENSE](LICENSE) for
 ### 主な機能
 
 1. **敵モブからのコモンレアリティマテリアルドロップ**
-   - すべての敵モブ（`Enemy` 実装モブおよび `MONSTER` カテゴリのモブ）のルートテーブルに、**4%**（設定変更可能）の確率で `apotheosis:common_material` をドロップする効果を追加します。
+   - すべての敵モブ（`MobCategory.MONSTER`）のルートテーブルに、**4%**（設定変更可能）の確率で `apotheosis:common_material` をドロップするプールを直接追加します（JER や EMI Loot などのルートテーブル表示系MODでの表示に対応）。
    - **ドロップ増加（Looting）** エンチャントの恩恵を受けます（デフォルトでレベルごとに +1%、設定変更可能）。
 
 2. **4:1 マテリアル圧縮レシピ**

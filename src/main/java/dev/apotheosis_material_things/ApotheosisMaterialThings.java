@@ -1,8 +1,6 @@
 package dev.apotheosis_material_things;
 
 import dev.apotheosis_material_things.config.ModConfig;
-import dev.apotheosis_material_things.loot.ModLootModifiers;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig.Type;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -15,8 +13,6 @@ public class ApotheosisMaterialThings {
     public static final String MOD_ID = "apotheosis_material_things";
 
     public ApotheosisMaterialThings(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
-        ModLootModifiers.register(modEventBus);
         context.registerConfig(Type.COMMON, ModConfig.COMMON_SPEC);
     }
 }

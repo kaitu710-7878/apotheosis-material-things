@@ -1,5 +1,13 @@
 # Changelog / 変更履歴
 
+## [1.0.1-alpha] - 2026-11-18
+
+### English
+- Switched hostile mob common material drops from Global Loot Modifiers to direct `LootPool` injection via `LootTableLoadEvent`, enabling loot table viewer mods (such as JER and EMI Loot) to display the drop and its Looting chance.
+
+### 日本語
+- 敵モブのコモンレアリティマテリアルドロップを Global Loot Modifier から `LootTableLoadEvent` によるルートテーブルへの直接 `LootPool` 追加方式に変更し、JER や EMI Loot などのルートテーブル表示系MODでドロップ情報・ドロップ増加確率が表示されるように修正。
+
 ## [1.0.0-alpha] - 2026-11-18
 
 ### English
